@@ -2,6 +2,11 @@
 const mdPlugin = require('./build/md')
 
 module.exports = ctx => ({
+  eslint: {
+    warnings: true,
+    errors: true
+  },
+
   boot: [
     { path: 'gdpr', server: false },
     'components'
@@ -22,7 +27,7 @@ module.exports = ctx => ({
     // rebuildCache: true,
 
     viteVuePluginOptions: {
-      include: [ /\.(vue|md)$/ ]
+      include: [/\.(vue|md)$/]
     },
 
     vitePlugins: [

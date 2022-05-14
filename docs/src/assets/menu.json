@@ -1,4 +1,18 @@
-[
+[ {
+    "name": "Advyzon Controls",
+    "icon": "icon-logo",
+    "path": "advyzon",
+    "children": [{
+        "name": "Advyzon Input",
+        "path": "input"
+      }, {
+        "name": "Advyzon Select",
+        "path": "select"
+      }, {
+        "name": "Advyzon Button",
+        "path": "button"
+      }]
+  },
   {
     "name": "Why Quasar?",
     "icon": "room",

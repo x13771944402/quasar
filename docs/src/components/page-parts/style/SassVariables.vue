@@ -26,8 +26,8 @@ export default {
        *
        * So, we avoid all that by using a raw import with import.meta.glob:
        */
-      const rawVariables = import.meta.glob('./../../../../node_modules/quasar/src/css/variables.sass', { as: 'raw' })
-      file.value = rawVariables[ './../../../../node_modules/quasar/src/css/variables.sass' ]
+      const rawVariables = import.meta.glob('./../../../../src/css/quasar.variables.scss', { as: 'raw' })
+      file.value = rawVariables[ './../../../../src/css/quasar.variables.scss' ]
       ready.value = true
     })
 

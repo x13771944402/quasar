@@ -11,6 +11,10 @@
       }, {
         "name": "Advyzon Button",
         "path": "button"
+      },
+      {
+        "name": "Advyzon Variable",
+        "path": "scssvarible"
       }]
   },
   {

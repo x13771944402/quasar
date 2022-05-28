@@ -6,13 +6,20 @@ keys: QAvatar
 Custom Advyzon Input
 The QInput component is used to capture text input from the user. It uses `v-model`, similar to a regular input. It has support for errors and validation, and comes in a variety of styles, colors, and types.
 
-## Advyzon Input API
+## Input API
 
 <doc-api file="QInput" />
 
 ::: warning
 For your QInput you can use only one of the main designs (`filled`, `outlined`, `standout`, `borderless`). You cannot use multiple as they are self-exclusive.
 :::
+
+
+## Advyzon Input Sample
+<doc-example title='Global Search' file='Advyzon/input/GlobalSearch'></doc-example>
+
+
+<doc-example title='Required Field' file='Advyzon/input/Required'></doc-example>
 
 ## Usage
 

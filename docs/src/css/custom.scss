@@ -1,0 +1,405 @@
+
+/* activities icon color */
+$callIconClr: #60b870;
+$taskIconClr: #996eda;
+$appointmentIconClr: #16B584;
+$meetIconClr: #5696e0;
+$emailIconClr: #55b7eb;
+$noteIconClr: #4880cd;
+$callBackIconClr: #80BBF5;
+$documentTitleIconClr: #e2bc55;
+
+/* activity status */
+$notStartClr: #656565;
+$inProgressClr: #64b45a;
+$completedClr: #64b45a;
+$deferredClr: #f59968;
+$waitClr: #4a5ad9;
+$cancelledClr: #000;
+
+// change radio disable
+.q-radio.disabled {
+    .q-radio__inner::after{
+        content: ' ';
+        position: absolute;
+        left: calc(50% - 9px);
+        top: calc(50% - 9px);
+        background: #f1f1f1;
+        height: calc(50% - 2px);
+        width: calc(50% - 2px);
+        border-radius: 50%;
+        z-index: -1;
+    }
+    &.q-radio--dense .q-radio__inner::after{
+        height: 100%;
+        width:  100%;
+        left: 0;
+        top: 0;
+    } 
+}
+
+// auto-fit scrollarea
+.auto-fit.q-scrollarea{
+    min-height: inherit;
+    .q-scrollarea__container{
+        min-height: inherit;
+    }
+}
+
+// uploader dash bordered
+.dash-border{
+    border: 1px dashed #c5c5c5;
+}
+// Different types of documents icons
+.icon-institutionfolder {
+    color: #f8ac1e !important;  
+    font-size: 22px;
+}
+.icon-householderfolder {
+    color: #f8ac1e !important;  
+    font-size: 22px;
+}
+.icon-userfolder {
+    color: #f8ac1e !important;  
+    font-size: 22px;
+}
+.icon-folder {
+  color: #f8ac1e !important;
+  font-size: 22px;
+}
+.icon-wordfile-square {
+  color: #2b579a !important;
+  font-size: 22px;
+}
+.icon-zipfile-square {
+  color: #fc8c59 !important;
+  font-size: 22px;
+}
+.icon-txtfile-square {
+  color: #4aa8fa !important;
+  font-size: 22px;
+}
+.icon-pptfile-square {
+  color: #b44730 !important;
+  font-size: 22px;
+}
+.icon-pdffile-square {
+  color: #d62c2c !important;
+  font-size: 22px;
+}
+.icon-excelfile-square {
+  color: #217346 !important;
+  font-size: 22px;
+}
+.icon-picfile-square {
+  color: #38ad3a !important;
+  font-size: 22px;
+}
+.icon-audio-square {
+  color: #5d5abf !important;
+  font-size: 22px;
+}
+.icon-video-square {
+  color: #788095 !important;
+  font-size: 22px;
+}
+.icon-unknowfile-square {
+  color: #989898 !important;
+  font-size: 22px;
+}
+* {
+    word-break: break-word
+}
+.text-title {
+    color:#202020;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text-subtitle {
+    color: #202020;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text-content {
+    color: #656565;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.text-caption {
+    color: #9e9e9e;
+    font-weight: normal;
+    font-size: 14px;
+}
+.client-icon{
+    color: #fff;
+    background-color: #5aadfa
+}
+.contact-icon{
+    color: #fff;
+    background-color: #46cea3
+}
+.account-icon{
+    color: #fff;
+    background-color: #feba4a
+}
+.prospect-icon{
+    color: #fff;
+    background-color: #9082fc
+}
+.birthday-icon{
+    color: #C898E6;
+    padding: 3px;
+    border-radius: 5px;
+    background: rgba(200,152,230, 0.2);
+}
+/* activities icon color */
+.call-icon-clr {
+    color: $callIconClr;
+}
+.call-back-icon-clr {
+    color: $callBackIconClr;   
+}
+.task-icon-clr {
+    color: $taskIconClr;
+}
+.appointment-icon-clr {
+    color: $appointmentIconClr;
+}
+.meeting-icon-clr {
+    color: $meetIconClr;
+}
+.note-icon-clr {
+    color: $noteIconClr;
+}
+
+.doc-icon-clr {
+    color: $documentTitleIconClr;
+}
+
+.risk-icon-clr {
+    color: $noteIconClr;
+}
+
+.email-icon-clr {
+    color: $emailIconClr;
+}
+
+/* activity status*/
+.actStatus0 {
+    color: $notStartClr;
+}
+.actStatus1 {
+    color: $inProgressClr;    
+}
+.actStatus2 {
+    color: $completedClr;
+}
+.actStatus3 {
+    color: $deferredClr;
+}
+.actStatus4 {
+    color: $waitClr;
+}
+.actStatus5 {
+    color: $cancelledClr;
+}
+.full-size .q-avatar__content{
+    font-size: inherit;
+    line-height: inherit;
+}
+.bg-custom-grey{
+    background-color: $blue-grey-1;
+}
+.body--dark .bg-custom-grey{
+    background-color: $dark;
+} 
+.body--dark{
+    .highcharts-background {
+        fill: var(--q-dark-page);
+    }
+    .highcharts-container text {
+        fill: white !important;
+    }
+    .highcharts-subtitle,
+    .highcharts-credits,
+    .highcharts-axis-title {
+        fill-opacity: 0.7;
+    }
+    .highcharts-grid-line {
+        stroke: white;
+        stroke-opacity: 0.2;
+    }
+    .highcharts-tooltip-box {
+        fill: var(--q-dark-page);
+    }
+    .highcharts-column-series rect.highcharts-point {
+        stroke: var(--q-dark-page);
+    }
+    .q-dialog .q-page-container{
+        background-color: $dark;
+    }
+}
+
+
+// only used for pc pages
+.menu-max-width{
+    max-width: 428px !important;
+}
+
+body label.q-field--auto-height.q-field--dense:not(.q-field--labeled).q-field__control,
+body .q-field--auto-height.q-field--dense:not(.q-field--labeled) .q-field__native,
+body .q-field--dense:not(.q-field--labeled) .q-field__control,
+body .q-field--dense:not(.q-field--labeled) .q-field__marginal
+{
+    min-height: 32px;
+    height: 32px;
+}
+.borderless-rounded .q-field--outlined .q-field__control{
+    background: #EFF3F5;
+}
+.borderless-rounded .q-field--outlined .q-field__control:before{
+    border-color: transparent transparent transparent transparent;
+}
+body .TWBodyLeft,body .TWBodyMid,body .TWBodyRight{
+    border-top: solid 2px #F5F5F5
+}
+.yhl-expand-item{
+    .q-item__section--avatar{
+        min-width: 0;
+        padding-right: 8px;
+    }
+}
+
+// @media screen and (min-width: 1441px) {
+//     body .q-header > .q-toolbar{
+//         min-height: 64px;
+//     }
+// }
+// @media screen and (max-width: 1440px) {
+//     body .q-header > .q-toolbar{
+//         min-height: 56px;
+//     }
+// }
+body.screen--xs{
+    .q-pa-dynamic{
+        padding: 8px;
+    }
+    .q-px-dynamic{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .q-py-dynamic{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .q-pl-dynamic{
+        padding-left: 8px;
+    }
+    .q-pr-dynamic{
+        padding-right: 8px;
+    }
+    .q-pt-dynamic{
+        padding-top: 8px;
+    }
+    .q-pb-dynamic{
+        padding-bottom: 8px;
+    }
+
+    .q-ma-dynamic{
+        margin: 8px;
+    }
+    .q-mx-dynamic{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .q-my-dynamic{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .q-ml-dynamic{
+        margin-left: 8px;
+    }
+    .q-mr-dynamic{
+        margin-right: 8px;
+    }
+    .q-mt-dynamic{
+        margin-top: 8px;
+    }
+    .q-mb-dynamic{
+        margin-bottom: 8px;
+    }
+}
+
+.dialog-no-padding{
+    .q-dialog__inner {
+        padding: 0;
+    }
+}
+.dialog-bottomsheet {
+    .q-dialog__inner {
+        height: calc(100vh - 108px);
+    }
+}
+
+.q-ba-grey{
+    outline: 1px solid #d8dce5;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+:root{
+    --safe-top: 0px;
+    --safe-bottom: 0px;
+}
+
+/* .yhl-expand-item-detail > .q-list > div:first-of-type{
+    padding-top: 0!important;
+}
+.yhl-expand-item-detail > div:not(.q-item){
+    padding-top: 0!important;
+} */
+.required{
+    .q-field__label {
+        &:after{
+            content:"*";
+            color: $negative;
+            margin-left: 4px;
+        }
+    }
+}
+.table-sticky-header{
+    thead> tr> th {
+        position: sticky;
+        z-index: 1;
+    }
+    .q-table__top,.q-table__bottom, thead tr:first-child th {
+        background-color: #fff
+    } /* bg color is important for th; just specify one */
+  /* this will be the loading indicator */
+    thead>tr:last-child th{
+        /* height of all previous header rows */
+        top: 48px;
+    }
+    thead tr:first-child th {
+        top: 0
+    }
+}
+.body--dark .table-sticky-header {
+    .q-table__top,.q-table__bottom, thead tr:first-child th {
+        background-color: $dark;
+    }
+}
+
+.hover_blue_hyperlink{
+    cursor: pointer;
+    color: $primary;
+}
+
+.header{
+    background-color: #0000001a;
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}

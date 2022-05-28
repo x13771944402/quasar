@@ -3,6 +3,9 @@
     "icon": "icon-logo",
     "path": "advyzon",
     "children": [{
+        "name": "Advyzon Variable",
+        "path": "scssvarible"
+      }, {
         "name": "Advyzon Input",
         "path": "input"
       }, {
@@ -11,10 +14,9 @@
       }, {
         "name": "Advyzon Button",
         "path": "button"
-      },
-      {
-        "name": "Advyzon Variable",
-        "path": "scssvarible"
+      }, {
+        "name": "Advyzon List",
+        "path": "list"
       }]
   },
   {

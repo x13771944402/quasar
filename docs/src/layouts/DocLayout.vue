@@ -9,7 +9,7 @@ q-layout.doc-layout(view="lHh LpR lff", @scroll="onScroll")
         img.quasar-logo__logotype(src="https://cdn.quasar.dev/logo-v2/svg/logotype.svg")
 
       q-space
-
+      q-btn.on-right(flat, round, :icon="$q.dark.isActive ? 'nights_stay' : 'wb_sunny'", @click="$q.dark.toggle()")
       header-menu.self-stretch.row.no-wrap(v-if="$q.screen.gt.xs")
 
       q-btn.q-mx-xs(

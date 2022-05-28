@@ -17,6 +17,9 @@ When not disabled or spinning, QBtn emits a `@click` event, as soon as it is cli
 
 <doc-api file="QBtn" />
 
+## Advyzon Button Samples
+
+
 ## Usage
 
 ### Standard
